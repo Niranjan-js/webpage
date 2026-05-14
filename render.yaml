@@ -1,0 +1,8 @@
+services:
+  - type: static_site
+    name: webpage
+    env: static
+    branch: main
+    staticPublishPath: .
+    root: .
+    plan: free
